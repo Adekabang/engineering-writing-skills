@@ -1,6 +1,15 @@
 ---
 name: planetscale-style-blog
-description: Write or revise a whole technical engineering blog post in the style of the PlanetScale engineering blog — a deep, first-principles explanation of one system mechanism, with a short hook, sentence-case headings, naive-then-better reasoning, paired numbers, honest trade-offs, real command output, and a figure plan that the planetscale-style-figures skill builds. Use when the user asks for a "PlanetScale-style" post, an engineering deep-dive blog post, a documentation or book chapter in that style, or a blog draft about how a system (database, network, security control, failover, identity, storage) actually works. For a figure or diagram on its own, use planetscale-style-figures instead. Umbrella skill: for only an outline use plan-post, for only a review use review-post.
+description: >-
+  Write or revise a whole technical engineering blog post in the style of the PlanetScale
+  engineering blog — a deep, first-principles explanation of one system mechanism, with a short
+  hook, sentence-case headings, naive-then-better reasoning, paired numbers, honest trade-offs,
+  real command output, and a figure plan that the planetscale-style-figures skill builds. Use
+  when the user asks for a "PlanetScale-style" post, an engineering deep-dive blog post, a
+  documentation or book chapter in that style, or a blog draft about how a system (database,
+  network, security control, failover, identity, storage) actually works. For a figure or
+  diagram on its own, use planetscale-style-figures instead. Umbrella skill: for only an outline
+  use plan-post, for only a review use review-post.
 ---
 
 # PlanetScale-style engineering blog post

@@ -1,9 +1,16 @@
 ---
 name: review-post
-description: Strict read-only review of a draft or published page against the PlanetScale-style writing checklist — one mechanism, hook, naive-then-better reasoning, numbers with units and sources, costs and limits, headings, paragraph length, figure placement — ending in Approve or Block with a Before | After | Why table. Use when the user asks to review a post, judge whether a chapter is ready, or find what is wrong with a page. Does not edit.
+description: >-
+  Strict read-only review of a draft or published page against the PlanetScale-style writing
+  checklist — one mechanism, hook, naive-then-better reasoning, numbers with units and sources,
+  costs and limits, headings, paragraph length, figure placement — ending in Approve or Block
+  with a Before | After | Why table. Use when the user asks to review a post, judge whether a
+  chapter is ready, or find what is wrong with a page. Does not edit.
 ---
 
 # Review a post
+
+> Requires `planetscale-style-blog`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-blog>.
 
 Read-only. Report; do not edit unless the user then asks for the fixes (use
 [planetscale-style-blog](../planetscale-style-blog/SKILL.md) for that).

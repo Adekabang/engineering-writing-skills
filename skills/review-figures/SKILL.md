@@ -1,9 +1,16 @@
 ---
 name: review-figures
-description: Read-only audit of the figures on a page — screenshot every step in light mode, dark mode, at 375 px and after client-side navigation, then check them against the PlanetScale-style visual language, label fit, overlaps, outcome boxes and text alternatives. Use when the user says a diagram looks off, asks to check or screenshot figures, or after building or redrawing a figure.
+description: >-
+  Read-only audit of the figures on a page — screenshot every step in light mode, dark mode, at
+  375 px and after client-side navigation, then check them against the PlanetScale-style visual
+  language, label fit, overlaps, outcome boxes and text alternatives. Use when the user says a
+  diagram looks off, asks to check or screenshot figures, or after building or redrawing a
+  figure.
 ---
 
 # Review figures
+
+> Requires `planetscale-style-figures`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 Read-only. Report findings; fix only when asked (then use the drawing skill that built the figure).
 

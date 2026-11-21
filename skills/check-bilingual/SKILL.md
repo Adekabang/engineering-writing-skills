@@ -1,6 +1,11 @@
 ---
 name: check-bilingual
-description: Read-only comparison of a page with its translation (for example English and Indonesian) — facts, numbers, requirement words (must, should, may), conditions, links, heading anchors, figures and untranslated text — reporting every mismatch. Use when the user asks whether the English and Indonesian pages match, after editing one language, or before merging a bilingual change.
+description: >-
+  Read-only comparison of a page with its translation (for example English and Indonesian) —
+  facts, numbers, requirement words (must, should, may), conditions, links, heading anchors,
+  figures and untranslated text — reporting every mismatch. Use when the user asks whether the
+  English and Indonesian pages match, after editing one language, or before merging a bilingual
+  change.
 ---
 
 # Check bilingual parity

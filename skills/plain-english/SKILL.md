@@ -1,6 +1,12 @@
 ---
 name: plain-english
-description: Edit or write English technical documentation in plain language — short active sentences, one instruction per sentence, sentence-case headings, US spelling, everyday words, inclusive technical terms — without changing requirements, values, code or anchors, and verify afterwards that nothing was lost. Use when the user asks to make English docs plainer, clearer or easier for non-native readers, to apply US spelling, to fix Title Case or semicolon-heavy prose, or to run a language pass over pages.
+description: >-
+  Edit or write English technical documentation in plain language — short active sentences, one
+  instruction per sentence, sentence-case headings, US spelling, everyday words, inclusive
+  technical terms — without changing requirements, values, code or anchors, and verify
+  afterwards that nothing was lost. Use when the user asks to make English docs plainer, clearer
+  or easier for non-native readers, to apply US spelling, to fix Title Case or semicolon-heavy
+  prose, or to run a language pass over pages.
 ---
 
 # Plain English for technical documentation

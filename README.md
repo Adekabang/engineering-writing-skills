@@ -9,7 +9,28 @@ no narrower skill fits.
 These skills imitate the *method and visual grammar* of those posts. They contain no text or art
 from them and are not affiliated with PlanetScale.
 
-Not sure which one to use? Run `/ask-writing` and describe what you want.
+Not sure which one to use? Invoke `ask-writing` and describe what you want.
+
+## Supported tools
+
+The skills follow the open Agent Skills format (a folder with a `SKILL.md` that has `name` and
+`description`), so any tool that reads that format can use them. Tested installs:
+
+| Tool | How | Where the skills land |
+|---|---|---|
+| Claude Code | plugin, or `npx skills add … -a claude-code` | plugin cache, or `.claude/skills/` |
+| Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot | `npx skills add … -a <agent>` | `.agents/skills/` |
+
+Notes:
+- Install all of them, or at least `planetscale-style-blog` and `planetscale-style-figures` with any
+  narrow skill: the narrow skills read shared references from those two by relative path.
+- `ask-writing` is meant to be invoked by name. Claude Code honours `disable-model-invocation`;
+  other tools may also pick it automatically, which is harmless.
+- How you invoke a skill by name differs per tool (for example `/ask-writing` in Claude Code, or
+  `/engineering-writing:ask-writing` as a plugin). Asking in plain words also works: "use the
+  review-post skill on this page".
+- `review-figures/scripts/figshot.mjs` needs Node, `playwright-core` and Chrome; everything else is
+  plain Markdown.
 
 ## Install
 
@@ -22,11 +43,15 @@ Not sure which one to use? Run `/ask-writing` and describe what you want.
 
 Plugin skills are namespaced, for example `/engineering-writing:review-post`.
 
-**skills CLI** (works with several agents):
+**skills CLI** (Codex, OpenCode, Cursor, Gemini CLI, Copilot, Claude Code and more):
 
 ```
-npx skills add Adekabang/engineering-writing-skills
+npx skills add Adekabang/engineering-writing-skills --skill '*'
+# or for specific tools:
+npx skills add Adekabang/engineering-writing-skills --skill '*' -a codex opencode
 ```
+
+Add `-g` to install for your user instead of the current project.
 
 **By hand:** copy folders from `skills/` into a project's `.claude/skills/`, or into
 `~/.claude/skills/` for every project. Copy `planetscale-style-blog` and

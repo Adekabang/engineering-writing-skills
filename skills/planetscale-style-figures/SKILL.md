@@ -1,6 +1,15 @@
 ---
 name: planetscale-style-figures
-description: Design and build explanatory diagrams, animations and interactive figures in the visual language of the PlanetScale engineering blog — monospace uppercase labels, square boxes with an inset dashed outline, orthogonal connectors, one colour per flow, reader-stepped "STEP n OF m" mechanisms, charts from real data, simulations and explorers. Use on its own whenever the user wants a figure, diagram, chart, animation or interactive visual for a post, doc page or book chapter (including redrawing an existing diagram), or when the planetscale-style-blog skill hands over its figure plan. Umbrella skill: prefer draw-mechanism, chart-evidence, build-interactive or redraw-diagram when one clearly fits; use this one for mixed sets of figures or when unsure.
+description: >-
+  Design and build explanatory diagrams, animations and interactive figures in the visual
+  language of the PlanetScale engineering blog — monospace uppercase labels, square boxes with
+  an inset dashed outline, orthogonal connectors, one colour per flow, reader-stepped "STEP n OF
+  m" mechanisms, charts from real data, simulations and explorers. Use on its own whenever the
+  user wants a figure, diagram, chart, animation or interactive visual for a post, doc page or
+  book chapter (including redrawing an existing diagram), or when the planetscale-style-blog
+  skill hands over its figure plan. Umbrella skill: prefer draw-mechanism, chart-evidence,
+  build-interactive or redraw-diagram when one clearly fits; use this one for mixed sets of
+  figures or when unsure.
 ---
 
 # PlanetScale-style figures

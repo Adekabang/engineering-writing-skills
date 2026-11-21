@@ -1,9 +1,17 @@
 ---
 name: draw-mechanism
-description: Draw how a system is put together or what happens over time — network and service topologies, layered stacks, reader-stepped mechanisms with packets and refusals, sequence (ladder) diagrams, swimlane timelines with measured spans such as RPO/RTO, and first-match rule walkthroughs — in the PlanetScale-style visual language. Use when the user asks for an architecture diagram, request path, sequence diagram, incident or recovery timeline, firewall or policy evaluation, or any boxes-and-flows figure.
+description: >-
+  Draw how a system is put together or what happens over time — network and service topologies,
+  layered stacks, reader-stepped mechanisms with packets and refusals, sequence (ladder)
+  diagrams, swimlane timelines with measured spans such as RPO/RTO, and first-match rule
+  walkthroughs — in the PlanetScale-style visual language. Use when the user asks for an
+  architecture diagram, request path, sequence diagram, incident or recovery timeline, firewall
+  or policy evaluation, or any boxes-and-flows figure.
 ---
 
 # Draw a mechanism
+
+> Requires `planetscale-style-figures`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 Visual language (mandatory): [../planetscale-style-figures/references/visual-language.md](../planetscale-style-figures/references/visual-language.md).
 Type catalogue, sections A, B and H: [../planetscale-style-figures/references/figure-types.md](../planetscale-style-figures/references/figure-types.md).

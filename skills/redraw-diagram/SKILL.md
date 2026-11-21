@@ -1,9 +1,15 @@
 ---
 name: redraw-diagram
-description: Replace an existing diagram — an SVG image, a Mermaid chart, or box-drawing / arrow text art in a code block — with a native figure in the PlanetScale-style visual language without losing any node, relationship, row, column or caveat. Use when the user asks to redraw, modernise, convert or restyle an old diagram, or to make legacy visuals match the rest of the site.
+description: >-
+  Replace an existing diagram — an SVG image, a Mermaid chart, or box-drawing / arrow text art
+  in a code block — with a native figure in the PlanetScale-style visual language without losing
+  any node, relationship, row, column or caveat. Use when the user asks to redraw, modernise,
+  convert or restyle an old diagram, or to make legacy visuals match the rest of the site.
 ---
 
 # Redraw a diagram
+
+> Requires `planetscale-style-figures`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 Visual language: [../planetscale-style-figures/references/visual-language.md](../planetscale-style-figures/references/visual-language.md).
 For the new figure's shape, follow [draw-mechanism](../draw-mechanism/SKILL.md) or, for data, [chart-evidence](../chart-evidence/SKILL.md).

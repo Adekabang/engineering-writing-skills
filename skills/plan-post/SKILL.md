@@ -1,9 +1,16 @@
 ---
 name: plan-post
-description: Plan an engineering explanation before drafting — pin the one mechanism, collect real evidence, choose an arc (scale ladder, failure taxonomy, experiment-first, history-then-argument), and write a sentence-case outline with a figure plan. Use when the user wants to outline a post or chapter, decide what a page should explain, or before any long draft with planetscale-style-blog.
+description: >-
+  Plan an engineering explanation before drafting — pin the one mechanism, collect real
+  evidence, choose an arc (scale ladder, failure taxonomy, experiment-first,
+  history-then-argument), and write a sentence-case outline with a figure plan. Use when the
+  user wants to outline a post or chapter, decide what a page should explain, or before any long
+  draft with planetscale-style-blog.
 ---
 
 # Plan a post
+
+> Requires `planetscale-style-blog` and `planetscale-style-figures`, installed next to this skill (links use `../`). If they are missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-blog>, <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 The output is an outline the user can approve: one goal sentence, 6–9 headings, the evidence list
 and a figure plan. No prose draft yet.

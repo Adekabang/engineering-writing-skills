@@ -1,9 +1,16 @@
 ---
 name: chart-evidence
-description: Turn measured numbers into an honest evidence figure — bar charts, log-scale comparisons, before/after measurements, scale and unit visuals — with units, source and setup on the figure. Use when the user wants to chart benchmark results, latencies, sizes, counts or costs, or show how much bigger or slower one thing is than another. Not for invented or illustrative data.
+description: >-
+  Turn measured numbers into an honest evidence figure — bar charts, log-scale comparisons,
+  before/after measurements, scale and unit visuals — with units, source and setup on the
+  figure. Use when the user wants to chart benchmark results, latencies, sizes, counts or costs,
+  or show how much bigger or slower one thing is than another. Not for invented or illustrative
+  data.
 ---
 
 # Chart evidence
+
+> Requires `planetscale-style-figures`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 Catalogue, sections C and D: [../planetscale-style-figures/references/figure-types.md](../planetscale-style-figures/references/figure-types.md).
 Visual language: [../planetscale-style-figures/references/visual-language.md](../planetscale-style-figures/references/visual-language.md).

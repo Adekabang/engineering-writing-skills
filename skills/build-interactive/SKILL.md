@@ -1,9 +1,16 @@
 ---
 name: build-interactive
-description: Build a figure the reader drives — reader-stepped mechanisms with step buttons, linked-highlight explorers, parameter simulations and what-if toggles — that works without JavaScript, respects reduced motion and survives client-side navigation. Use when the user wants an interactive or animated diagram, a "try it" widget, a simulation, or asks why an interactive figure breaks after page navigation.
+description: >-
+  Build a figure the reader drives — reader-stepped mechanisms with step buttons,
+  linked-highlight explorers, parameter simulations and what-if toggles — that works without
+  JavaScript, respects reduced motion and survives client-side navigation. Use when the user
+  wants an interactive or animated diagram, a "try it" widget, a simulation, or asks why an
+  interactive figure breaks after page navigation.
 ---
 
 # Build an interactive figure
+
+> Requires `planetscale-style-figures`, installed next to this skill (links use `../`). If it is missing, read <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/planetscale-style-figures>.
 
 Tiers and build details: [../planetscale-style-figures/references/visual-language.md](../planetscale-style-figures/references/visual-language.md)
 (sections "Three tiers", "Tier 2", "Tier 3", "Choosing a tier").

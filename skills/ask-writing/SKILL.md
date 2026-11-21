@@ -1,10 +1,15 @@
 ---
 name: ask-writing
-description: Route a writing or figure request to the one right skill in this collection (planning, writing, drawing, charting, interactive figures, redrawing, reviewing, bilingual checks, plain English and Indonesian). Invoke by name when unsure which skill to use.
+description: >-
+  Route a writing or figure request to the one right skill in this collection (planning,
+  writing, drawing, charting, interactive figures, redrawing, reviewing, bilingual checks, plain
+  English and Indonesian). Invoke by name when unsure which skill to use.
 disable-model-invocation: true
 ---
 
 # Ask: which writing skill?
+
+> Links below point to sibling skill folders. If a skill is not installed next to this one, read it at <https://github.com/Adekabang/engineering-writing-skills/tree/main/skills/>.
 
 Pick **one** skill for the user's request, say why in one sentence, then follow it. Read the chosen
 skill's `SKILL.md` before you recommend it. Do not list the whole map back to the user.

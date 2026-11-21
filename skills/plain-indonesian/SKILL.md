@@ -1,6 +1,13 @@
 ---
 name: plain-indonesian
-description: Edit or write Indonesian technical documentation in plain language (bahasa Indonesia yang lugas) — short active sentences, one instruction per sentence, sentence-case headings, EYD, consistent "Anda", natural word order instead of translationese — while keeping established technical terms, requirement words (harus, wajib, dapat), values, code and anchors, and verifying afterwards that nothing was lost. Use when the user asks to improve Indonesian docs, fix translationese or untranslated English, apply EYD, or run a language pass over Indonesian pages.
+description: >-
+  Edit or write Indonesian technical documentation in plain language (bahasa Indonesia yang
+  lugas) — short active sentences, one instruction per sentence, sentence-case headings, EYD,
+  consistent "Anda", natural word order instead of translationese — while keeping established
+  technical terms, requirement words (harus, wajib, dapat), values, code and anchors, and
+  verifying afterwards that nothing was lost. Use when the user asks to improve Indonesian docs,
+  fix translationese or untranslated English, apply EYD, or run a language pass over Indonesian
+  pages.
 ---
 
 # Plain Indonesian for technical documentation
