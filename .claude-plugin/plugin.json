@@ -1,9 +1,19 @@
 {
   "name": "engineering-writing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skills for first-principles engineering posts and their figures in the style of the PlanetScale engineering blog: planning, writing, diagrams, evidence charts, interactive figures, redraws and read-only reviews.",
-  "author": { "name": "Adekabang" },
+  "author": {
+    "name": "Mohammad Raska",
+    "url": "https://github.com/Adekabang"
+  },
   "repository": "https://github.com/Adekabang/engineering-writing-skills",
   "license": "MIT",
-  "keywords": ["writing", "technical-writing", "diagrams", "figures", "documentation", "skills"]
+  "keywords": [
+    "writing",
+    "technical-writing",
+    "diagrams",
+    "figures",
+    "documentation",
+    "skills"
+  ]
 }

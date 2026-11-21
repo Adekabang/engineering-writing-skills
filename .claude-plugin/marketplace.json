@@ -1,6 +1,9 @@
 {
   "name": "engineering-writing-skills",
-  "owner": { "name": "Adekabang" },
+  "owner": {
+    "name": "Mohammad Raska",
+    "url": "https://github.com/Adekabang"
+  },
   "plugins": [
     {
       "name": "engineering-writing",
