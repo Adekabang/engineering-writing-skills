@@ -14,12 +14,14 @@ Not sure which one to use? Invoke `ask-writing` and describe what you want.
 ## Supported tools
 
 The skills follow the open Agent Skills format (a folder with a `SKILL.md` that has `name` and
-`description`), so any tool that reads that format can use them. Tested installs:
+`description`), so any tool that reads that format can use them.
 
-| Tool | How | Where the skills land |
-|---|---|---|
-| Claude Code | plugin, or `npx skills add … -a claude-code` | plugin cache, or `.claude/skills/` |
-| Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot | `npx skills add … -a <agent>` | `.agents/skills/` |
+| Tool | How | Where the skills land | Checked |
+|---|---|---|---|
+| Claude Code | plugin, or `npx skills add … -a claude-code` | plugin cache, or `.claude/skills/` | all 13 load |
+| Codex | `npx skills add … -a codex` | `.agents/skills/` | all 13 load |
+| OpenCode | `npx skills add … -a opencode` | `.agents/skills/` | 12 listed; `ask-writing` is hidden as invoke-by-name and loads when asked |
+| Cursor, Gemini CLI, GitHub Copilot | `npx skills add … -a <agent>` | `.agents/skills/` | installed; not run |
 
 Notes:
 - Install all of them, or at least `planetscale-style-blog` and `planetscale-style-figures` with any
