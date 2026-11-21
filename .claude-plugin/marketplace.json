@@ -1,0 +1,11 @@
+{
+  "name": "engineering-writing-skills",
+  "owner": { "name": "Adekabang" },
+  "plugins": [
+    {
+      "name": "engineering-writing",
+      "source": "./",
+      "description": "Plan, write, draw and review first-principles engineering posts and their figures."
+    }
+  ]
+}
