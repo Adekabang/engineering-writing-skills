@@ -28,6 +28,11 @@ to the languages you compare.
 A quick structural pass helps first: compare heading lists, `<Figure` lines and URL lists of both
 files, then read the sections that differ.
 
+## After the check
+
+Fix language problems with [plain-english](../plain-english/SKILL.md) or
+[plain-indonesian](../plain-indonesian/SKILL.md); fix facts in both versions together.
+
 ## Output
 
 | Section | English | Indonesian | Problem |

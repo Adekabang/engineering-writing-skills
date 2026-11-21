@@ -61,11 +61,24 @@ These skills only report. They change nothing unless you ask for the fixes.
 | [review-figures](skills/review-figures/SKILL.md) | Audit figures with screenshots in every step, theme and width. |
 | [check-bilingual](skills/check-bilingual/SKILL.md) | Compare a page with its translation for facts, requirements, figures and anchors. |
 
+## Language
+
+| Skill | Use it to |
+|---|---|
+| [plain-english](skills/plain-english/SKILL.md) | Edit English docs for plain language and US spelling without losing requirements. |
+| [plain-indonesian](skills/plain-indonesian/SKILL.md) | Edit Indonesian docs for plain language and EYD, fixing translationese. |
+
 ## Using them in a project
 
 The skills are general. Put your project's own rules in `AGENTS.md` or `CLAUDE.md` — page genres,
 citation rules, languages that change together, where figure data lives, which figure component and
 tests to use. Every skill has a "Project conventions" section that defers to those rules.
+
+## Credits
+
+The plain-language skills were inspired by orepras's public "english-plain" and
+"bahasa-indonesia-plain" gists, including the RASA read-aloud check. They are written
+independently for technical documentation.
 
 ## License
 

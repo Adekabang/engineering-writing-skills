@@ -1,7 +1,7 @@
 {
   "name": "engineering-writing",
-  "version": "1.0.1",
-  "description": "Skills for first-principles engineering posts and their figures in the style of the PlanetScale engineering blog: planning, writing, diagrams, evidence charts, interactive figures, redraws and read-only reviews.",
+  "version": "1.1.0",
+  "description": "Skills for first-principles engineering posts and their figures in the style of the PlanetScale engineering blog: planning, writing, diagrams, evidence charts, interactive figures, redraws, read-only reviews, and plain English and Indonesian.",
   "author": {
     "name": "Mohammad Raska",
     "url": "https://github.com/Adekabang"

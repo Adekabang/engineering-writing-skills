@@ -40,5 +40,5 @@ Most severe first; at most 15 rows. Block when any step 1, 4 or 5 issue exists.
 Also check the project's own writing rules (`AGENTS.md`, `CLAUDE.md`, a style guide): genre, citation
 rules, the distinction between a source requirement and the project's own choice, and every language
 version the page must have. For parity between language versions, use
-[check-bilingual](../check-bilingual/SKILL.md). If plain-language skills are installed, point to them for
-sentence-level language fixes.
+[check-bilingual](../check-bilingual/SKILL.md). For sentence-level language fixes, point to
+[plain-english](../plain-english/SKILL.md) or [plain-indonesian](../plain-indonesian/SKILL.md).

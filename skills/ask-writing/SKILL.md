@@ -1,6 +1,6 @@
 ---
 name: ask-writing
-description: Route a writing or figure request to the one right skill in this collection (planning, writing, drawing, charting, interactive figures, redrawing, reviewing, bilingual checks). Invoke by name when unsure which skill to use.
+description: Route a writing or figure request to the one right skill in this collection (planning, writing, drawing, charting, interactive figures, redrawing, reviewing, bilingual checks, plain English and Indonesian). Invoke by name when unsure which skill to use.
 disable-model-invocation: true
 ---
 
@@ -25,7 +25,8 @@ If the request spans several stages, name the first skill and say which one come
 | "Review this draft", "is this ready?", "what's wrong with this page?" | [review-post](../review-post/SKILL.md) |
 | "Check the diagrams", "the figure looks off", "screenshot the figures" | [review-figures](../review-figures/SKILL.md) |
 | "Do the English and Indonesian pages match?" | [check-bilingual](../check-bilingual/SKILL.md) |
-| "Make the language plainer", sentence-level style | a plain-language skill if one is installed; otherwise [review-post](../review-post/SKILL.md) |
+| "Make the English plainer", "US spelling", "too many semicolons" | [plain-english](../plain-english/SKILL.md) |
+| "Perbaiki bahasa Indonesianya", "fix the Indonesian", "it reads like a translation" | [plain-indonesian](../plain-indonesian/SKILL.md) |
 
 ## Tie-breaks
 
